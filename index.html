@@ -8,7 +8,7 @@
     <meta name="author" content="Victoria Santos" />
     <meta name="keywords" content="Portifólio, tecnologia, front-end, site" />
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="shortcut icon" href="imagens/logo.jpg">
+    <link rel="shortcut icon" href="assets/imagens/logo.jpg">
     <title>Portifólio | Victoria Santos</title>
 </head>
 
@@ -16,90 +16,90 @@
     <header>
         <nav class="navegacao">
             <div class="nav-logo">
-                <a class="logo" href="#sessao-a"><img src="imagens/logo-victoria.png"></a>
+                <a class="logo" href="#sessao-a"><img src="assets/imagens/logo-victoria.png" alt="logo de victoria"></a>
             </div>
             <ul class="menu">
-                <li> <a href="#sessao-a"> Home </a></li>
-                <li> <a href="#sessao-b">Sobre mim </a></li>
-                <li><a href="#sessao-c"> Habilidades </a></li>
-                <li> <a href="#sessao-d">Projetos </a></li>
+                <li> <a href="#home"> Home </a></li>
+                <li> <a href="#sobre-mim">Sobre mim </a></li>
+                <li><a href="#habilidades"> Habilidades </a></li>
+                <li> <a href="#projetos">Projetos </a></li>
             </ul>
         </nav>
     </header>
 
     <main class="principal">
-        <section class="sessao" id="sessao-a">
+        <section class="sessao-a" id="home">
             <div class="sessao-a-texto">
                 <h2> Olá, eu sou </h2>
                 <h1> Victoria Santos </h1>
                 <p> Desenvolvedora front-end </p>
                 <div class="btn-contatos">
                     <a href="http://github.com/VictoriaEmilly" target="_blank" class=" btn-meus-contatos"> <img
-                            src="imagens/github.png"> GitHub</a>
+                            src="assets/imagens/github.png"> GitHub</a>
                     <a href="https://www.linkedin.com/in/victoria-emilly-ferreira-santos-2b729519a/" target="_blank"
-                        class="btn-meus-contatos"> <img src="imagens/linkedin.png">Linkedin</a>
+                        class="btn-meus-contatos"> <img src="assets/imagens/linkedin.png">Linkedin</a>
                 </div>
             </div>
-            <div id="triangulo"></div>
+            <div class=img-home><img src="assets/imagens/memoji-victoria.png"></div>
         </section>
 
-        <section class="sessao" id="sessao-b">
+        <section class="sessao-b" id="sobre-mim">
             <div class="sessao-b-texto">
                 <h3>Sobre mim</h3>
-                <p> Me chamo Victoria, sou estudante de Análise e Desenvolvimento de Sistemas
+                <p> Me chamo Victoria Emilly, sou estudante de Análise e Desenvolvimento de Sistemas
                     no Centro Universitário UNA em Belo Horizonte, Minas Gerais. Sou apaixonada por tecnologia e
                     atualmente estou me dedicando a tecnologias voltadas para front-end. Estou em busca da minha
                     primeira
                     experiência profissional na área, para aplicar os meus conhecimentos e iniciar no mercado de
                     trabalho
                     com o objetivo de me tornar uma desenvolvedora full-stack. <br>
-                    <a href="" target="_blank"> <img src="imagens/baixar.png"> Currículo </a>
+                    <a href="assets/Currículo - Victoria Santos.pdf" target="_blank"> <img src="assets/imagens/baixar.png"> Currículo </a>
                 </p>
             </div>
             <div class="sessao-b-img">
-                <img src="imagens/victoria.jpg" id="victoria">
+                <img src="assets/imagens/victoria.jpg" id="victoria" alt="selfie de Victoria Emilly">
             </div>
         </section>
 
-        <section class="sessao" id="sessao-c">
+        <section class="sessao-c" id="habilidades">
             <div class="sessao-c-content">
                 <h3>Habilidades</h3>
                 <section class="sessao-c-habilidades">
                     <figure>
-                        <img src="imagens/habilidades/logo-html-5-256.png">
+                        <img src="assets/imagens/habilidades/logo-html-5-256.png" alt="logo HTML5">
                         <figcaption>HTML</figcaption>
                     </figure>
                     <figure>
-                        <img src="imagens/habilidades/logo-css-3-256.png">
+                        <img src="assets/imagens/habilidades/logo-css-3-256.png" alt="logo CSS3">
                         <figcaption>CSS</figcaption>
                     </figure>
                     <figure>
-                        <img src="imagens/habilidades/logo-javascript-256.png">
+                        <img src="assets/imagens/habilidades/logo-javascript-256.png" alt="logo JavaScript">
                         <figcaption>JavaScript</figcaption>
                     </figure>
                     <figure>
-                        <img src="imagens/habilidades/logo-java-256.png">
+                        <img src="assets/imagens/habilidades/logo-java-256.png" alt="logo Java">
                         <figcaption>Java</figcaption>
                     </figure>
                     <figure>
-                        <img src="imagens/habilidades/mysql-256.png">
+                        <img src="assets/imagens/habilidades/mysql-256.png" alt="logo MySQL">
                         <figcaption>MySQL</figcaption>
                     </figure>
                     <figure>
-                        <img src="imagens/habilidades/github.png">
+                        <img src="assets/imagens/habilidades/github.png" alt="logo GitHub">
                         <figcaption>GitHub</figcaption>
                     </figure>
                 </section>
             </div>
         </section>
 
-        <section class="sessao" id="sessao-d">
+        <section class="sessao-d" id="projetos">
             <h3>Projetos</h3>
             <div class="projetos">
                 <div class="conteudo-projeto" id="projeto-sigmatech">
                     <div class="videos">
                         <video width="420" height="140" autoplay loop muted>
-                            <source src="videos/sigma.mp4" type="video/mp4" />
+                            <source src="assets/videos/sigma.mp4" type="video/mp4" />
                             <source src="movie.ogg" type="video/ogg" />
                             Seu navegador não suporta o arquivo de vídeo.
                         </video>
@@ -108,17 +108,17 @@
                     <p>Website de serviços de tecnologia</p>
                     <div class="ajuste-centro">
                         <div class="habilidades-mini">
-                            <img src="imagens/habilidades/logo-html-5-256.png">
-                            <img src="imagens/habilidades/logo-css-3-256.png"> <br>
+                            <img src="assets/imagens/habilidades/logo-html-5-256.png" alt="logo HTML5">
+                            <img src="assets/imagens/habilidades/logo-css-3-256.png" alt="logo CSS3"> <br>
                         </div>
-                        <a href="https://sigmatechsolutions-victoriasantos.vercel.app" target="_blank"><img
-                                src="imagens/simbolo-de-link-externo.png"> Visualizar </a>
+                        <a href="assets/https://sigmatechsolutions-victoriasantos.vercel.app" target="_blank"><img
+                                src="assets/imagens/simbolo-de-link-externo.png"> Visualizar </a>
                     </div>
                 </div>
                 <div class="conteudo-projeto" id="projeto-watches">
                     <div class="videos">
                         <video autoplay loop muted>
-                            <source src="videos/watches.mp4" type="video/mp4" />
+                            <source src="assets/videos/watches.mp4" type="video/mp4" />
                             <source src="movie.ogg" type="video/ogg" />
                             Seu navegador não suporta o arquivo de vídeo.
                         </video>
@@ -127,18 +127,18 @@
                     <p>Landing Page de relógios de luxo</p>
                     <div class="ajuste-centro">
                         <div class="habilidades-mini">
-                            <img src="imagens/habilidades/logo-html-5-256.png">
-                            <img src="imagens/habilidades/logo-css-3-256.png">
-                            <img src="imagens/habilidades/logo-javascript-256.png"> <br>
+                            <img src="assets/imagens/habilidades/logo-html-5-256.png" alt="logo HTML5">
+                            <img src="assets/imagens/habilidades/logo-css-3-256.png" alt="logo CSS3">
+                            <img src="assets/imagens/habilidades/logo-javascript-256.png" alt="logo JavaScript"> <br>
                         </div>
                         <a href="https://watches-victoriasantos.vercel.app" target="_blank"><img
-                                src="imagens/simbolo-de-link-externo.png"> Visualizar </a>
+                                src="assets/imagens/simbolo-de-link-externo.png"> Visualizar </a>
                     </div>
                 </div>
                 <div class="conteudo-projeto" id="projeto-natural">
                     <div class="videos">
                         <video width="420" height="140" autoplay loop muted>
-                            <source src="videos/natural.mp4" type="video/mp4" />
+                            <source src="assets/videos/natural.mp4" type="video/mp4" />
                             <source src="movie.ogg" type="video/ogg" />
                             Seu navegador não suporta o arquivo de vídeo.
                         </video>
@@ -147,12 +147,12 @@
                     <p>Website de cosméticos naturais</p>
                     <div class="ajuste-centro">
                         <div class="habilidades-mini">
-                            <img src="imagens/habilidades/logo-html-5-256.png">
-                            <img src="imagens/habilidades/logo-css-3-256.png">
-                            <img src="imagens/habilidades/logo-javascript-256.png"> <br>
+                            <img src="assets/imagens/habilidades/logo-html-5-256.png" alt="logo HTML5">
+                            <img src="assets/imagens/habilidades/logo-css-3-256.png" alt="logo CSS3">
+                            <img src="assets/imagens/habilidades/logo-javascript-256.png" alt="logo JavaScript"> <br>
                         </div>
                         <a href="https://naturalwebsite-victoriasantos.vercel.app" target="_blank"><img
-                                src="imagens/simbolo-de-link-externo.png"> Visualizar </a>
+                                src="assets/imagens/simbolo-de-link-externo.png"> Visualizar </a>
                     </div>
                 </div>
         </section>
@@ -161,9 +161,9 @@
     <footer id="rodape">
         <p>Projeto por Victoria Santos</p>
         <div>
-           <a href="http://github.com/VictoriaEmilly" target="_blank"> <img src="imagens/github.png"></a> 
-           <a href="https://www.linkedin.com/in/victoria-emilly-ferreira-santos-2b729519a/" target="_blank""> <img src="imagens/linkedin.png"></a>
-           <a href="https://www.instagram.com/vick_emilly/" target="_blank"> <img src="imagens/instagram.png"></a>
+           <a href="http://github.com/VictoriaEmilly" target="_blank"> <img src="assets/imagens/github.png"></a> 
+           <a href="https://www.linkedin.com/in/victoria-emilly-ferreira-santos-2b729519a/" target="_blank""> <img src="assets/imagens/linkedin.png"></a>
+           <a href="https://www.instagram.com/vick_emilly/" target="_blank"> <img src="assets/imagens/instagram.png"></a>
 
         </div>
     </footer>
