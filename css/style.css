@@ -115,6 +115,7 @@ section h3{
     justify-content: flex-start;
     align-items: center;
     background-image: url(../assets/imagens/fundo.jpg);
+    position: relative;
 }
   
 #home h1{
@@ -201,13 +202,14 @@ section h3{
 }
 
 .scroll-down{
+    position: absolute;
+    bottom: 0;
     display: flex;
     justify-content: center;
-    align-items: center;
-    bottom: 0;
-    margin-top: 7%;
+    align-items: flex-end;
     width: 100%;
     color: #fff;
+    margin-bottom: 4%;
 }
 
 .scroll-down img{
@@ -453,7 +455,7 @@ figcaption{
 }
 
 #rodape p{
-    width: 50%;
+    width: 80%;
     color: #fff;
     font-weight: 300;
     font-size: 0.8em;
