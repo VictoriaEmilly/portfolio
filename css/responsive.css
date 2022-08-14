@@ -1,0 +1,136 @@
+@media screen and (max-width:999px) {
+    body{
+        font-size: 17px;
+    }
+
+    #home h1{
+        font-size:3em;
+    }
+
+    #home p{
+        font-size: 1.3em;
+    }
+    .sessao-b-img img{
+        width: 100%;
+        padding: 5px;
+    }   
+
+    #home{
+        height: 80vh;
+        background-image: url(./assets/imagens/fundo.jpg);
+    }
+
+    .sessao-b-texto a{
+        width: 70%;
+    }
+
+    
+    .videos{
+        width: 344px;
+        height: 170px;
+    } 
+}
+
+@media screen and (max-width:768px){
+
+    .sessao-b-texto{
+        width: 80%;
+        padding: 30px 50px;
+    }
+    
+    .sessao-b-img{
+        position: relative;
+    }
+    
+    .sessao-b-img img{
+        width: 35%;
+    }
+    
+
+    #sobre-mim{
+        flex-direction: column-reverse;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+}
+
+.sessao-b-img{
+    position: relative;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 20px;
+}
+}
+
+@media (min-width:320px) and (max-width: 640px) {
+    #home{
+        font-size: 12px;
+        margin: 0;
+        padding: 0;
+        height: 70vh;
+    }
+
+    .sessao-a-texto{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-home{
+        display: none;
+    }
+
+    .btn-contatos{
+        width: 80%;
+    }
+
+    .btn-contatos img{
+        width: 24px;
+    }
+
+    #sobre-mim{
+        flex-direction: column-reverse;
+    }
+
+    .sessao-b-img{
+        position: relative;
+        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    .sessao-b-img img{
+        width: 45%;
+    }
+
+    .sessao-b-texto{
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        width: 80%;
+        padding:30px;
+    }
+
+    .sessao-b-texto a{
+        width: 100%;
+    }
+  
+    #habilidades img{
+        width: 50%;
+    }
+
+    .conteudo-projeto{
+        align-items: center;
+        justify-content: center;
+    }
+   
+    .videos{
+        width: 274px;
+        height: 130px;
+    } 
+
+    .conteudo-projeto a{
+        width: 100%;
+    }
+}

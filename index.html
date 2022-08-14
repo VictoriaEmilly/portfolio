@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Victoria Santos" />
     <meta name="keywords" content="Portifólio, tecnologia, front-end, site" />
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
     <link rel="shortcut icon" href="assets/imagens/logo.jpg">
     <title>Portifólio | Victoria Santos</title>
 </head>
@@ -16,10 +17,10 @@
     <header>
         <nav class="navegacao">
             <div class="nav-logo">
-                <a class="logo" href="#sessao-a"><img src="assets/imagens/logo-victoria.png" alt="logo de victoria"></a>
+                <a class="logo" href="#"><img src="assets/imagens/logo-victoria.png" alt="logo de victoria"></a>
             </div>
             <ul class="menu">
-                <li> <a href="#home"> Home </a></li>
+                <li> <a href="#"> Home </a></li>
                 <li> <a href="#sobre-mim">Sobre mim </a></li>
                 <li><a href="#habilidades"> Habilidades </a></li>
                 <li> <a href="#projetos">Projetos </a></li>
@@ -29,18 +30,23 @@
 
     <main class="principal">
         <section class="sessao-a" id="home">
-            <div class="sessao-a-texto">
-                <h2> Olá, eu sou </h2>
-                <h1> Victoria Santos </h1>
-                <p> Desenvolvedora front-end </p>
-                <div class="btn-contatos">
-                    <a href="http://github.com/VictoriaEmilly" target="_blank" class=" btn-meus-contatos"> <img
-                            src="assets/imagens/github.png"> GitHub</a>
-                    <a href="https://www.linkedin.com/in/victoria-emilly-ferreira-santos-2b729519a/" target="_blank"
-                        class="btn-meus-contatos"> <img src="assets/imagens/linkedin.png">Linkedin</a>
-                </div>
+            <div orientation="left" class="btn-contatos">
+                <a href="http://github.com/VictoriaEmilly" target="_blank" class=" btn-meus-contatos"> <img
+                        src="assets/imagens/github.png"></a>
+                <a href="https://www.linkedin.com/in/victoria-emilly-ferreira-santos-2b729519a/" target="_blank"
+                    class="btn-meus-contatos"> <img src="assets/imagens/linkedin.png"></a>
+                <a href="https://www.instagram.com/vick_emilly/" class="btn-meus-contatos" target="_blank"> <img
+                        src="assets/imagens/instagram.png"></a>
             </div>
-            <div class=img-home><img src="assets/imagens/memoji-victoria.png"></div>
+            <div class="sessao-a-texto">
+                <h2> &#128075;&#127997 Olá, eu sou </h2>
+                <h1>Victoria Santos </h1>
+                <p> Estudante de desenvolvimento de sistemas, atualmente focada em tecnologias de front-end. </p>
+                <a href="#projetos" class="btn-sessao-projetos">Projetos</a>
+                <a class="scroll-down" href="#sobre-mim">Scroll down <img src="assets/imagens/seta-para-baixo.png"></a>
+            </div>
+            <div orientation="right" class="aside"><a
+                    href="mailto:victoria.emilly.12@gmail.com">victoria.emilly.12@gmail.com</a></div>
         </section>
 
         <section class="sessao-b" id="sobre-mim">
@@ -53,7 +59,8 @@
                     experiência profissional na área, para aplicar os meus conhecimentos e iniciar no mercado de
                     trabalho
                     com o objetivo de me tornar uma desenvolvedora full-stack. <br>
-                    <a href="assets/Currículo - Victoria Santos.pdf" target="_blank"> <img src="assets/imagens/baixar.png"> Currículo </a>
+                    <a href="assets/Currículo - Victoria Santos.pdf" target="_blank"> <img
+                            src="assets/imagens/baixar.png"> Currículo </a>
                 </p>
             </div>
             <div class="sessao-b-img">
@@ -63,7 +70,7 @@
 
         <section class="sessao-c" id="habilidades">
             <div class="sessao-c-content">
-                <h3>Habilidades</h3>
+                <h3 class="titulo3">Habilidades</h3>
                 <section class="sessao-c-habilidades">
                     <figure>
                         <img src="assets/imagens/habilidades/logo-html-5-256.png" alt="logo HTML5">
@@ -94,15 +101,15 @@
         </section>
 
         <section class="sessao-d" id="projetos">
-            <h3>Projetos</h3>
+            <h3 class="titulo3">Projetos</h3>
             <div class="projetos">
                 <div class="conteudo-projeto" id="projeto-sigmatech">
                     <div class="videos">
+                        <a href="https://sigmatechsolutions-victoriasantos.vercel.app" target="_blank">
                         <video width="420" height="140" autoplay loop muted>
                             <source src="assets/videos/sigma.mp4" type="video/mp4" />
-                            <source src="movie.ogg" type="video/ogg" />
                             Seu navegador não suporta o arquivo de vídeo.
-                        </video>
+                        </video></a>
                     </div>
                     <h4>Sigma Tech</h4>
                     <p>Website de serviços de tecnologia</p>
@@ -111,17 +118,19 @@
                             <img src="assets/imagens/habilidades/logo-html-5-256.png" alt="logo HTML5">
                             <img src="assets/imagens/habilidades/logo-css-3-256.png" alt="logo CSS3"> <br>
                         </div>
-                        <a href="assets/https://sigmatechsolutions-victoriasantos.vercel.app" target="_blank"><img
-                                src="assets/imagens/simbolo-de-link-externo.png"> Visualizar </a>
+                        <a href="https://sigmatechsolutions-victoriasantos.vercel.app" target="_blank"
+                            class="btn-projetos"><img src="assets/imagens/ligacao.png"> Visualizar </a>
                     </div>
                 </div>
+
                 <div class="conteudo-projeto" id="projeto-watches">
                     <div class="videos">
-                        <video autoplay loop muted>
-                            <source src="assets/videos/watches.mp4" type="video/mp4" />
-                            <source src="movie.ogg" type="video/ogg" />
-                            Seu navegador não suporta o arquivo de vídeo.
-                        </video>
+                        <a href="https://watches-victoriasantos.vercel.app" width="420" height="140" target="_blank">
+                            <video autoplay loop muted>
+                                <source src="assets/videos/watches.mp4" type="video/mp4" />
+                                Seu navegador não suporta o arquivo de vídeo.
+                            </video>
+                        </a>
                     </div>
                     <h4>Watches</h4>
                     <p>Landing Page de relógios de luxo</p>
@@ -131,17 +140,19 @@
                             <img src="assets/imagens/habilidades/logo-css-3-256.png" alt="logo CSS3">
                             <img src="assets/imagens/habilidades/logo-javascript-256.png" alt="logo JavaScript"> <br>
                         </div>
-                        <a href="https://watches-victoriasantos.vercel.app" target="_blank"><img
-                                src="assets/imagens/simbolo-de-link-externo.png"> Visualizar </a>
+                        <a href="https://watches-victoriasantos.vercel.app" target="_blank" class="btn-projetos"><img
+                                src="assets/imagens/ligacao.png"> Visualizar </a>
                     </div>
                 </div>
+
                 <div class="conteudo-projeto" id="projeto-natural">
                     <div class="videos">
+                        <a href="https://naturalwebsite-victoriasantos.vercel.app" target="_blank">
                         <video width="420" height="140" autoplay loop muted>
                             <source src="assets/videos/natural.mp4" type="video/mp4" />
-                            <source src="movie.ogg" type="video/ogg" />
                             Seu navegador não suporta o arquivo de vídeo.
                         </video>
+                    </a>
                     </div>
                     <h4>Natural</h4>
                     <p>Website de cosméticos naturais</p>
@@ -151,23 +162,26 @@
                             <img src="assets/imagens/habilidades/logo-css-3-256.png" alt="logo CSS3">
                             <img src="assets/imagens/habilidades/logo-javascript-256.png" alt="logo JavaScript"> <br>
                         </div>
-                        <a href="https://naturalwebsite-victoriasantos.vercel.app" target="_blank"><img
-                                src="assets/imagens/simbolo-de-link-externo.png"> Visualizar </a>
+                        <a href="https://naturalwebsite-victoriasantos.vercel.app" target="_blank"
+                            class="btn-projetos"><img src="assets/imagens/ligacao.png"> Visualizar </a>
                     </div>
                 </div>
         </section>
     </main>
 
     <footer id="rodape">
-        <p>Projeto por Victoria Santos</p>
-        <div>
-           <a href="http://github.com/VictoriaEmilly" target="_blank"> <img src="assets/imagens/github.png"></a> 
-           <a href="https://www.linkedin.com/in/victoria-emilly-ferreira-santos-2b729519a/" target="_blank""> <img src="assets/imagens/linkedin.png"></a>
-           <a href="https://www.instagram.com/vick_emilly/" target="_blank"> <img src="assets/imagens/instagram.png"></a>
+        <p> &copy; Copyright 2022 | Projeto criado e desenvolvido por Victoria Santos</p>
+        <div class="redes">
+            <a href="http://github.com/VictoriaEmilly" target="_blank"> <img src="assets/imagens/github.png"></a>
+            <a href="https://www.linkedin.com/in/victoria-emilly-ferreira-santos-2b729519a/"
+                target="_blank""> <img src=" assets/imagens/linkedin.png"></a>
+            <a href="https://www.instagram.com/vick_emilly/" target="_blank"> <img
+                    src="assets/imagens/instagram.png"></a>
 
         </div>
     </footer>
-
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
