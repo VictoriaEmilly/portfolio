@@ -1,275 +1,271 @@
 @media screen and (max-width:999px) {
     body{
-        font-size: 17px;
+      font-size: 17px;
     }
-    
+		
+    #home{
+      height: 80vh;
+    }
 
     #home h1{
-        font-size:4em;
+      font-size:4em;
     }
 
     #home p{
-        font-size: 1.3em;
-        width: 85%;
-
+      font-size: 1.3em;
+      width: 85%;
     }
+
     .sessao-b-img img{
-        width: 100%;
-        padding: 5px;
+      width: 100%;
+      padding: 5px;
     }   
 
-    #home{
-        height: 80vh;
-    }
-
     .sessao-b-texto a{
-        width: 70%;
+      width: 70%;
     }
 
     .videos{
-        width: 324px;
-        height: 160px;
+      width: 324px;
+      height: 160px;
     } 
 }
 
 @media screen and (max-width:768px){
     
+	/* estilização MENU RESPONSIVO */
     #menu-toggle{
-        opacity: 0;
+      opacity: 0;
     }
     
     #menu-toggle:checked + .menu-btn > span{
-        transform: rotate(45deg);
+      transform: rotate(45deg);
     }
     
     #menu-toggle:checked +.menu-btn >span::before{
-        top: 0;
-        transform: rotate(0deg);
+      top: 0;
+      transform: rotate(0deg);
     }
     
     #menu-toggle:checked + .menu-btn > span::after{
-        top: 0;
-        transform: rotate(90deg);
+      top: 0;
+      transform: rotate(90deg);
     }
     
     #menu-toggle:checked ~.menu{
-        right: 0 !important;
+      right: 0 !important;
     }
     
     .menu-btn{
-        display: block;
-        position: fixed;
-        top: 20px;
-        right: 20px;
-        width: 26px;
-        height: 26px;
-        cursor: pointer;
-        z-index: 10;
-        margin-top: 10px;
-       
+      display: block;
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      width: 26px;
+      height: 26px;
+      cursor: pointer;
+      z-index: 10;
+      margin-top: 10px;    
     }
 
     .menu-btn > span, 
     .menu-btn > span::before,
     .menu-btn > span::after{
-        display: block;
-        position: absolute;
-        width: 100%;
-        height: 2px;
-        background-color: #e5c09d;
-        transition-duration: .25s;
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      background-color: #e5c09d;
+      transition-duration: .25s;
     }
 
     .menu-btn > span::before{
-        content: '';
-        top: -8px;
+      content: '';
+      top: -8px;
     }
 
     .menu-btn > span::after{
-        content: '';
-        top: 8px
+      content: '';
+      top: 8px
     }
 
     .menu{
-        display: flex;
-        position: fixed;
-        flex-direction: column;
-        width: 50vw;
-        height: 100vh;
-        right: -100%;
-        top: 0;
-        margin: 0;
-        padding: 80px 0;
-        list-style: none;
-        background: rgba(54,54,54, 0.872);
-        box-shadow: 2px 2px 2px rgba(0, 0, 0, .4);
-        transition-duration: .25s;
+      display: flex;
+      position: fixed;
+      flex-direction: column;
+      width: 50vw;
+      height: 100vh;
+      right: -100%;
+      top: 0;
+      margin: 0;
+      padding: 80px 0;
+      list-style: none;
+      background: rgba(54,54,54, 0.952);
+      box-shadow: 2px 2px 2px rgba(0, 0, 0, .4);
+      transition-duration: .25s;
     }
     
     .menu li a{
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        color: #fff;
-        font-weight: 600;
-        text-decoration: none;
-        transition-duration: .25s;
-        width: 50vw;
-        padding: 20px;
-       
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      color: #fff;
+      font-weight: 600;
+      text-decoration: none;
+      transition-duration: .25s;
+      width: 50vw;
+      padding: 20px;       
     }
     
     .menu li a:hover{
-        background-color: #e5c09d59;
+      background-color: #e5c09d59;
+			color: #fff;
     }
 
     .nav-logo{ 
-        width: 30%;
+      width: 30%;
     }
 
     #home h1, #home p, #home h2{
-        width: 100%;
-        text-align: left;
+      width: 100%;
+      text-align: left;
     }
 
     .sessao-a-texto{
-        width: 100%;
-        justify-content: center;
-        align-items: center;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
     }
 
     .sessao-a-texto h1{
-        font-size: 3em;
+      font-size: 3em;
     }
 
     .sessao-a-texto p{
-        font-size: 2.5em;
+      font-size: 2.5em;
     }
 
-    .aside, .btn-contatos{
-        display: none;
+    .right, .btn-contatos{
+      display: none;
+    }
+
+		#sobre-mim{
+      flex-direction: column-reverse;
+      margin: 0;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+		}
+
+    .sessao-b-img{
+      position: relative;
+      width: 100%;
+      margin: 0;
+      margin-bottom: 20px;
     }
 
     .sessao-b-texto{
-        width: 80%;
-        padding: 30px 50px;
+      width: 80%;
+      padding: 30px 50px;
     }
     
     .sessao-b-img{
-        position: relative;
+      position: relative;
     }
     
     .sessao-b-img img{
-        width: 35%;
+      width: 35%;
     }
 
     .conteudo-projeto{
-        display: flex;
-        align-items: center;
-        justify-content: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 
     .conteudo-projeto a{
-        width: 100%;
-        margin-top: 15px;
+      width: 100%;
+      margin-top: 15px;
     }
 
     .videos{
-        width: 384px;
-        height: 220px;
+      width: 384px;
+      height: 220px;
     }  
-    
-
-    #sobre-mim{
-        flex-direction: column-reverse;
-        margin: 0;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-}
-
-    .sessao-b-img{
-        position: relative;
-        width: 100%;
-        margin: 0;
-        margin-bottom: 20px;
-    }
 }
 
 @media (min-width:320px) and (max-width: 640px) {
 
     .nav-logo{ 
-        width: 50%;
-        padding-top: 5px;
+      width: 50%;
+      padding-top: 5px;
     }
     
-  
     #home{
-        font-size: 14px;
-        margin: 0;
-        padding: 0;
-        height: 70vh;
+      font-size: 14px;
+      margin: 0;
+      padding: 0;
+      height: 70vh;
     }
 
     #home h1, #home p, #home h2{
-        width: 100%;
-        text-align: left;
+      width: 100%;
+      text-align: left;
     }
 
     #home h1{
-        font-size: 2.5em;
+    font-size: 2.5em;
     }
 
     #home p{
-        font-size: 1.2em;
+      font-size: 1.2em;
     }
 
     .sessao-a-texto{
-        width: 100%;
-        justify-content: center;
-        align-items: center;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
     }
 
     #sobre-mim{
-        flex-direction: column-reverse;
+      flex-direction: column-reverse;
     }
 
     .sessao-b-img{
-        position: relative;
-        width: 100%;
-        margin: 0;
-        margin-bottom: 20px;
+      position: relative;
+      width: 100%;
+      margin: 0;
+      margin-bottom: 20px;
     }
 
     .sessao-b-img img{
-        width: 45%;
+      width: 45%;
     }
 
     .sessao-b-texto{
-        justify-content: center;
-        align-items: center;
-        margin: 0;
-        width: 80%;
-        padding:30px;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      width: 80%;
+      padding:30px;
     }
 
     .sessao-b-texto a{
-        width: 100%;
+      width: 100%;
     }
   
     #habilidades img{
-        width: 50%;
+      width: 50%;
     }
 
     .conteudo-projeto{
-        align-items: center;
-        justify-content: center;
+      align-items: center;
+      justify-content: center;
     }
    
     .videos{
-        width: 294px;
-        height: 190px;
+      width: 294px;
+      height: 190px;
     } 
-
 }
