@@ -30,12 +30,57 @@ body{
     overflow-x: hidden;
     font-size: 20px;
     font-weight: 300;
+    width: 100%;
+    height: 100%;
+}
+
+#interface{
+    display: none;
+}
+
+.loading{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: #292828;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes load {
+    from{
+        transform: translateY(-100%);
+    }
+    to{
+        transform: translateY(100%);
+    }
+}
+
+.loading div{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 10px;
+    background-color: #e5c09d;
+    animation: load 0.7s ease-in-out infinite alternate;
+    z-index: 100;
+    overflow: hidden;
+}
+
+.loading div:nth-child(1){
+    animation-delay: -0.4s;
+    background-color: #fff;
+}
+.loading div:nth-child(2){
+    animation-delay: -0.2s;
+    background-color: #979292;
+   
 }
 
 header{
     position: fixed;
     width: 100%;
-    z-index: 100;
+    z-index: 9;
     top: 0;
     height: 15vh;
     display: block;

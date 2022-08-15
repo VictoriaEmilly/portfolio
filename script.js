@@ -20,3 +20,8 @@ sr.reveal('.aside,.btn-contatos',slideHome,{delay:400, origin:'left',interval:20
 function closeNav(){
     document.getElementById('menu-toggle').checked=false;
 }
+
+function loading(){
+    document.getElementById('load').style.display="none";
+    document.getElementById('interface').style.display="block";
+}
