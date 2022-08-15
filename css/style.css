@@ -63,7 +63,6 @@ body{
     margin: 10px;
     background-color: #e5c09d;
     animation: load 0.7s ease-in-out infinite alternate;
-    z-index: 100;
     overflow: hidden;
 }
 
