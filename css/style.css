@@ -152,7 +152,7 @@ section h3{
   flex-direction: column;
   justify-content: center;
   text-align: start;
-  width: 75%;
+  width: 77%;
   height: auto;
   align-items: flex-start;
   margin: 0 5%;
@@ -180,16 +180,13 @@ section h3{
   right: 0;
   height: 100%;
   padding: 0;
-  position: fixed;
-  z-index: 10;
-  margin-right: 2%;
 }
 
 .right a{
   writing-mode: vertical-rl;
   font-size: 0.8em;   
   padding: 2% 0;
-  height: 50%;
+  height: 49%;
   text-align: center;
   color: #fff;
 }
