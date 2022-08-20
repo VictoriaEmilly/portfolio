@@ -303,7 +303,7 @@ section h3{
 /* ESTILIZAÇÃO HABILIDADES */
 #habilidades{
 	background-color: #292828;
-	transform: skewY(-2deg);
+	transform: skewY(-1.5deg);
   padding: 50px 5px;
 }
 
